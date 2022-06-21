@@ -1,6 +1,5 @@
-const number1 = parseFloat(prompt ('Type the first number for SmallSamuels calculator: ')); 
 const operator = prompt('Abundant Minute Operator: Type in an oepration to start a calculation ( either +, -, * or / ): ');  
-  
+  const number1 = parseFloat(prompt ('Type the first number for SmallSamuels calculator: '));  
 const number2 = parseFloat(prompt ('Type the Second number for SmallSamuels calculator: '));  
   
 let result; 
@@ -15,9 +14,9 @@ else if (operator == '-') {
 else if (operator == '*') { 
     result = number1 * number2;  
 }  
-else {  
+else if (operator == '/') {  
     result = number1 / number2; 
 }  
   
   
-window.alert(" This is the result on SmallSamuel's Calculator Result is" :  + result);  
+window.alert(" This is the result on SmallSamuel's Calculator Result is" + result);  
