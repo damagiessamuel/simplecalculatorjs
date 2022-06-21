@@ -20,4 +20,4 @@ else {
 }  
   
   
-window.alert(" This is the result on SmallSamuel's Calculator Result is" + result);  
+window.alert(" This is the result on SmallSamuel's Calculator Result is" :  + result);  
