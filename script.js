@@ -1,7 +1,6 @@
+const number1 = parseFloat(prompt ('Type the first number for SmallSamuels calculator: ')); 
 const operator = prompt('Abundant Minute Operator: Type in an oepration to start a calculation ( either +, -, * or / ): ');  
   
-
-const number1 = parseFloat(prompt ('Type the first number for SmallSamuels calculator: '));  
 const number2 = parseFloat(prompt ('Type the Second number for SmallSamuels calculator: '));  
   
 let result; 
